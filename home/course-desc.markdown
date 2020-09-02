@@ -17,7 +17,7 @@ news: $body$
 
 ## 概述
 
-注意：本課程為「IM3002 程式語言」的增補版本。已修過該門課並拿到學分的同學請勿修此門課。
+*注意：本課程為「IM3002 程式語言」的增補版本。已修過該門課並拿到學分的同學請勿修此門課。*
 
 本課程為「程式語言(Programming Languages)」系列課程之一，著眼點並不是教特定程式語言，而是以函數語言(functional language)為媒介，討論設計程式解決問題的思考方式、設計程式使用的數學與邏輯基礎、以及程式語言與形式符號在其中扮演的角色。其核心概念包括：
 
@@ -41,7 +41,7 @@ news: $body$
 
   * 更強大的型別系統相當於更具表達力的邏輯。同樣地，邏輯變強大的同時，我們也犧牲掉一些好掌握的性質。
 
-*關鍵字*： 函數程設 functional programming 程式推導 program derivation 歸納法 induction 證明 proofs 邏輯 logic 型別系統 type systems
+**關鍵字**： 函數程設 functional programming 程式推導 program derivation 歸納法 induction 證明 proofs 邏輯 logic 型別系統 type systems
 
 ## 評分
 
@@ -52,6 +52,5 @@ news: $body$
 穆信成。
 
 ## 工具
-
 
 ## 參考書目
