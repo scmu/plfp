@@ -1,0 +1,12 @@
+
+assets/.DS_Store
+
+.DS_Store
+
+.stack-work/
+
+_cache/
+
+_site/
+
+*.lock
