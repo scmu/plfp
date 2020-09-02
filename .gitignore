@@ -10,3 +10,5 @@ _cache/
 _site/
 
 *.lock
+
+templates/Info.html
