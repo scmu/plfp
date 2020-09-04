@@ -1,7 +1,5 @@
 ---
 title: 課程資訊
-news_title: <h1>$news_title$</h1>
-news: $body$
 ---
 
 ## 時間、地點
