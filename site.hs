@@ -11,32 +11,31 @@ main = hakyll $ do
         route   idRoute
         compile compressCssCompiler
     
-    match "home/*" $ do
+    match "home/news.markdown" $ do
         compile pandocCompiler
 
     match "menu/*" $ version "firstVer" $ do
         route $ setExtension "html"
         compile pandocCompiler
     
-    create ["index.html"] $ do
-        route   idRoute
+    match "templates/*" $ do 
+        compile templateBodyCompiler
+    
+    match "home/course-desc.markdown" $ do
+        route $ constRoute "index.html"
         compile $ do
             menu <- loadAll ("menu/*" .&&. hasVersion "firstVer") :: Compiler [Item String]
             news <- loadBody "home/news.markdown" :: Compiler String
-            body <- loadBody "home/course-desc.markdown" :: Compiler String
             iden <- getUnderlying
             let menuCtx = 
-                    constField    "outpath" (toFilePath iden) `mappend`
-                    functionField "active"  setActive         `mappend`
+                    constField    "outpath" (toFilePath iden)     `mappend`
+                    functionField "active"  setActive             `mappend`
                     defaultContext
             let customCtx = 
-                    constField "title" "課程資訊"                   `mappend`
-                    constField "home"  "y"                          `mappend`
-                    field      "news"  (\x -> return news)          `mappend`
-                    field      "body"  (\x -> return body)          `mappend`
-                    listField  "menu"  menuCtx (return menu)        `mappend`
+                    field         "news"    (\x -> return news)   `mappend`
+                    listField     "menu"    menuCtx (return menu) `mappend`
                     defaultContext
-            makeItem ""
+            pandocCompiler
                 >>= loadAndApplyTemplate "templates/default.html" customCtx
 
     match "menu/*" $ do
@@ -54,8 +53,6 @@ main = hakyll $ do
             pandocCompiler
                 >>= loadAndApplyTemplate "templates/default.html" customCtx
                 >>= relativizeUrls
-
-    match "templates/*" $ compile templateBodyCompiler
 
 setActive :: [String] -> Item String -> Compiler String
 setActive args (Item i x) 
