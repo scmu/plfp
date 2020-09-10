@@ -13,12 +13,18 @@
                 <a href="/">程式語言：函數程式設計 2020</a>
             </div>
             <nav>
-                <ul>
-                    <li><a href="/">首頁</a></li>
-                    $for(menu)$
-                    <li><a href="$url$">$title$</a></li>
-                    $endfor$
-                </ul>
+                <div class="ui-menu">
+                    <ul>
+                        $if(home)$
+                            <li class="active"><a href="/">首頁</a></li>
+                        $else$
+                            <li><a href="/">首頁</a></li>
+                        $endif$
+                        $for(menu)$
+                            <li $active(path, outpath)$><a href="$url$">$title$</a></li>
+                        $endfor$
+                    </ul>
+                </div>
             </nav>
         </header>
 

@@ -24,11 +24,17 @@ main = hakyll $ do
             menu <- loadAll ("menu/*" .&&. hasVersion "firstVer") :: Compiler [Item String]
             news <- loadBody "home/news.markdown" :: Compiler String
             body <- loadBody "home/course-desc.markdown" :: Compiler String
+            iden <- getUnderlying
+            let menuCtx = 
+                    constField    "outpath" (toFilePath iden) `mappend`
+                    functionField "active"  setActive         `mappend`
+                    defaultContext
             let customCtx = 
                     constField "title" "課程資訊"                   `mappend`
+                    constField "home"  "y"                          `mappend`
                     field      "news"  (\x -> return news)          `mappend`
                     field      "body"  (\x -> return body)          `mappend`
-                    listField  "menu"  defaultContext (return menu) `mappend`
+                    listField  "menu"  menuCtx (return menu)        `mappend`
                     defaultContext
             makeItem ""
                 >>= loadAndApplyTemplate "templates/default.html" customCtx
@@ -37,11 +43,23 @@ main = hakyll $ do
         route $ setExtension "html"
         compile $ do 
             menu <- loadAll ("menu/*" .&&. hasVersion "firstVer") :: Compiler [Item String]
+            iden <- getUnderlying
+            let menuCtx = 
+                    constField    "outpath" (toFilePath iden)     `mappend`
+                    functionField "active"  setActive             `mappend`
+                    defaultContext
             let customCtx = 
-                    listField  "menu"  defaultContext (return menu) `mappend`
+                    listField     "menu"    menuCtx (return menu) `mappend`
                     defaultContext
             pandocCompiler
                 >>= loadAndApplyTemplate "templates/default.html" customCtx
                 >>= relativizeUrls
 
     match "templates/*" $ compile templateBodyCompiler
+
+setActive :: [String] -> Item String -> Compiler String
+setActive args (Item i x) 
+    | path == outPath = return "class=\"active\""
+    | otherwise       = return ""
+    where path    = head args
+          outPath = last args
