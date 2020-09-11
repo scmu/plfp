@@ -7,6 +7,10 @@ import           Hakyll
 --------------------------------------------------------------------------------
 main :: IO ()
 main = hakyll $ do
+    match "assets/*" $ do
+        route   idRoute
+        compile copyFileCompiler
+    
     match "css/*" $ do
         route   idRoute
         compile compressCssCompiler
@@ -15,7 +19,7 @@ main = hakyll $ do
         compile pandocCompiler
 
     match "menu/*" $ version "firstVer" $ do
-        route $ setExtension "html"
+        route $ gsubRoute "menu/" (const "") `composeRoutes` setExtension "html"
         compile pandocCompiler
     
     match "templates/*" $ do 
@@ -24,7 +28,7 @@ main = hakyll $ do
     match "home/course-desc.markdown" $ do
         route $ constRoute "index.html"
         compile $ do
-            menu <- loadAll ("menu/*" .&&. hasVersion "firstVer") :: Compiler [Item String]
+            menu <- loadAll (hasVersion "firstVer") :: Compiler [Item String]
             news <- loadBody "home/news.markdown" :: Compiler String
             iden <- getUnderlying
             let menuCtx = 
@@ -37,11 +41,12 @@ main = hakyll $ do
                     defaultContext
             pandocCompiler
                 >>= loadAndApplyTemplate "templates/default.html" customCtx
+                >>= relativizeUrls
 
     match "menu/*" $ do
-        route $ setExtension "html"
+        route $ gsubRoute "menu/" (const "") `composeRoutes` setExtension "html"
         compile $ do 
-            menu <- loadAll ("menu/*" .&&. hasVersion "firstVer") :: Compiler [Item String]
+            menu <- loadAll (hasVersion "firstVer") :: Compiler [Item String]
             iden <- getUnderlying
             let menuCtx = 
                     constField    "outpath" (toFilePath iden)     `mappend`
