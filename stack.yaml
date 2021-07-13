@@ -1,11 +1,6 @@
-# resolver: lts-16.11
-# packages:
-#   - .
-# extra-deps:
-#   - hakyll-4.13.4.0
-
-
 resolver: lts-18.2
 allow-newer: true
+packages:
+  - .
 extra-deps:
-- hakyll-4.14.0.0
+  - hakyll-4.14.0.0

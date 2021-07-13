@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Programming Languages: Functional Programming</title>
+    <link href="https://github.com/hahey/lanyon-hakyll/atom.xml" rel="self" />
+    <link href="https://github.com/hahey/lanyon-hakyll" />
+    <id>https://github.com/hahey/lanyon-hakyll/atom.xml</id>
+    <author>
+        <name>Shin-Cheng Mu</name>
+        <email>scm@iis.sinica.edu.tw</email>
+    </author>
+    <updated>Unknown</updated>
+    
+</feed>
