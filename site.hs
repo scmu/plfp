@@ -5,37 +5,43 @@ import           Hakyll
 
 
 --------------------------------------------------------------------------------
+
+config :: Configuration
+config = defaultConfiguration
+  { destinationDirectory = "docs"
+  }
+
 main :: IO ()
-main = hakyll $ do
+main = hakyllWith config $ do
     match "assets/*" $ do
         route   idRoute
         compile copyFileCompiler
-    
+
     match "css/*" $ do
         route   idRoute
         compile compressCssCompiler
-    
+
     match "home/news.markdown" $ do
         compile pandocCompiler
 
     match "menu/*" $ version "firstVer" $ do
         route $ gsubRoute "menu/" (const "") `composeRoutes` setExtension "html"
         compile pandocCompiler
-    
-    match "templates/*" $ do 
+
+    match "templates/*" $ do
         compile templateBodyCompiler
-    
+
     match "home/course-desc.markdown" $ do
         route $ constRoute "index.html"
         compile $ do
             menu <- loadAll (hasVersion "firstVer") :: Compiler [Item String]
             news <- loadBody "home/news.markdown" :: Compiler String
             iden <- getUnderlying
-            let menuCtx = 
+            let menuCtx =
                     constField    "outpath" (toFilePath iden)     `mappend`
                     functionField "active"  setActive             `mappend`
                     defaultContext
-            let customCtx = 
+            let customCtx =
                     field         "news"    (\x -> return news)   `mappend`
                     listField     "menu"    menuCtx (return menu) `mappend`
                     defaultContext
@@ -45,14 +51,14 @@ main = hakyll $ do
 
     match "menu/*" $ do
         route $ gsubRoute "menu/" (const "") `composeRoutes` setExtension "html"
-        compile $ do 
+        compile $ do
             menu <- loadAll (hasVersion "firstVer") :: Compiler [Item String]
             iden <- getUnderlying
-            let menuCtx = 
+            let menuCtx =
                     constField    "outpath" (toFilePath iden)     `mappend`
                     functionField "active"  setActive             `mappend`
                     defaultContext
-            let customCtx = 
+            let customCtx =
                     listField     "menu"    menuCtx (return menu) `mappend`
                     defaultContext
             pandocCompiler
@@ -60,7 +66,7 @@ main = hakyll $ do
                 >>= relativizeUrls
 
 setActive :: [String] -> Item String -> Compiler String
-setActive args (Item i x) 
+setActive args (Item i x)
     | path == outPath = return "class=\"active\""
     | otherwise       = return ""
     where path    = head args

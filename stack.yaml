@@ -1,11 +1,11 @@
 # resolver: lts-16.11
 # packages:
-#   - . 
+#   - .
 # extra-deps:
 #   - hakyll-4.13.4.0
 
 
-resolver: lts-15.3
+resolver: lts-18.2
 allow-newer: true
 extra-deps:
-- hakyll-4.13.2.0@sha256:7185031bacfff87141486ada90798550dd0c29424ba613c7974222b27cf0f3b5,8867
+- hakyll-4.14.0.0
