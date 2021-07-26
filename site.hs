@@ -60,6 +60,8 @@ mkIndex = match "home.markdown" $ do
       route $ constRoute "index.html"
       compile $ do
           pageName <- takeBaseName . toFilePath <$> getUnderlying
+          let homeCtx = constField "home" "" `mappend`
+                        siteCtx
           let pageCtx = constField pageName "" `mappend`
                         baseNodeCtx
           let evalCtx = functionField "get-meta" getMetadataKey `mappend`
@@ -68,8 +70,8 @@ mkIndex = match "home.markdown" $ do
 
           pandocCompiler
               >>= saveSnapshot "page-content"
-              >>= loadAndApplyTemplate "templates/page.html"    siteCtx
-              >>= loadAndApplyTemplate "templates/default.html" (activeSidebarCtx <> siteCtx)
+              >>= loadAndApplyTemplate "templates/page.html"    homeCtx
+              >>= loadAndApplyTemplate "templates/default.html" (activeSidebarCtx <> homeCtx)
               >>= relativizeUrls
 
 mkTemplate = match "templates/*" $ compile templateBodyCompiler
@@ -156,7 +158,7 @@ siteCtx =
     baseCtx `mappend`
     constField "site_description"
                "Programming Languages: Functional Programming" `mappend`
-    constField "site-url" "https://scmu.github.io/plfp/" `mappend`
+    constField "site-url" "https://scmu.github.io/plfp" `mappend`
     constField "tagline" "National Taiwan University, 2020" `mappend`
     constField "site-title" "程式語言：函數程式設計" `mappend`
     constField "copy-year" "2020" `mappend`
@@ -164,8 +166,8 @@ siteCtx =
     defaultContext
 
 baseCtx =
-    constField "baseurl" "https://scmu.github.io/plfp/"
-               -- "http://localhost:8000"
+    constField "baseurl" -- "https://scmu.github.io/plfp"
+               "http://localhost:8000"
 
 --------------------------------------------------------------------------------
 
@@ -177,8 +179,9 @@ sidebarCtx nodeCtx =
 baseNodeCtx :: Context String
 baseNodeCtx =
     urlField "node-url" `mappend`
-    titleField "title" `mappend`
-    baseCtx
+    titleField "page-name" `mappend`
+    baseCtx `mappend`
+    defaultContext
 
 baseSidebarCtx = sidebarCtx baseNodeCtx
 

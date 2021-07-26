@@ -15,7 +15,7 @@
 
     $for(list_pages)$
       $if(title)$
-        <a class="sidebar-nav-item$if(eval(title))$ active$endif$" href="$baseurl$$node-url$">$title$</a>
+        <a class="sidebar-nav-item$if(eval(page-name))$ active$endif$" href="$baseurl$$node-url$">$title$</a>
       $endif$
     $endfor$
 
