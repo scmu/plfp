@@ -107,9 +107,9 @@ siteCtx =
     constField "site_description"
                "Programming Languages: Functional Programming" `mappend`
     constField "site-url" "https://scmu.github.io/plfp" `mappend`
-    constField "tagline" "National Taiwan University, 2020" `mappend`
+    constField "tagline" "National Taiwan University, 2022" `mappend`
     constField "site-title" "程式語言：函數程式設計" `mappend`
-    constField "copy-year" "2020" `mappend`
+    constField "copy-year" "2022" `mappend`
     constField "github-repo" "https://github.com/hahey/lanyon-hakyll" `mappend`
     defaultContext
 
