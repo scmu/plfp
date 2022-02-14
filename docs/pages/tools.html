@@ -121,11 +121,14 @@
      <h1 id="the-glasgow-haskell-compiler">The Glasgow Haskell Compiler</h1>
 <p>目前最被廣泛使用的 Haskell 實作是 <a href="http://www.haskell.org/ghc">Glasgow Haskell Compiler (GHC)</a>, 包含編譯器以及有互動介面的解譯器。</p>
 <h2 id="安裝">安裝</h2>
-<p>最簡單的方式是安裝 <a href="http://hackage.haskell.org/platform/">Haskell Platform</a>. 這是一整組包含許多 Haskell 相關工具的套件，其中也包含 GHC.</p>
-<p>請至 <a href="http://hackage.haskell.org/platform/">Haskell Platform</a> 首頁上選擇自己使用的作業系統後下載，並按照指示安裝。</p>
-<p>Ubuntu Linux 使用者請勿使用 apt-get — 如此會安裝到很舊的版本。請使用 Generic Linux 的安裝法。</p>
+<p>目前<a href="https://www.haskell.org/downloads/">官方推薦的方式</a>是經由 <a href="https://www.haskell.org/ghcup/">GHCup</a> 安裝 GHC, <a href="https://cabal.readthedocs.io/">cabal-install</a> (Haskell 的套件安裝程式）, 以及 <a href="https://github.com/haskell/haskell-language-server">haskell-language-server</a> (HLS, 配合編輯器以及 IDE 使用的支援工具)。</p>
+<p>請參照 <a href="https://www.haskell.org/ghcup/">GHCup</a> 的指示安裝。下指令後，會進入一個選單可選擇要裝哪些項目的選單。除預設的 GHC 與 cabal 等等之外，建議可裝 HLS。除非預備要使用 Haskell 開發大軟體，stack 可暫時不用安裝。系統會抓適合的 GHC 來安裝。</p>
+<p>安裝程式會幫忙改系統路徑。之後可能會需要開一個新的 shell/視窗。如在新開的 shell 之中下指令 <code>ghci</code>, 能看到 GHC 的提示符號，就是安裝成功了。</p>
+<p>Windows 使用者也可用 Chocolatey 安裝。請下指令：</p>
+<pre><code>choco install haskell-dev haskell-stack cabal
+refreshenv</code></pre>
 <h2 id="ghci-命令">GHCi 命令</h2>
-<p>安裝完畢後，從命令列下指令 ghci 即可進入 Glasgow Haskell Compiler 的互動介面。Windows 使用者可執行 WinGHCi.</p>
+<p>安裝完畢後，從命令列下指令 ghci 即可進入 Glasgow Haskell Compiler 的互動介面。</p>
 <p>常用指令如下。各指令都可只打第一個字母。如 :load 可簡寫為 :l。課堂上用到的指令包括 :load (載入檔案）, :reload （重新載入檔案）, :type <expr> （顯示 expr 的型別）等等。</p>
 <pre><code>&lt;statement&gt;                 evaluate/run &lt;statement&gt;
 :                           repeat last command
@@ -160,14 +163,15 @@
 <p>你可用任何習慣的文字編輯器，但須把程式存為副檔名 “.hs” 的檔案。</p>
 <p>Windows 使用者不建議使用 NotePad, 因為該程式不認得 UNIX 的換行符號。其他可能選項包括：</p>
 <ul>
-<li><a href="http://notepad-plus-plus.org/">NotePad++</a> (Windows): an editor released under GPL license.</li>
-<li><a href="https://vim.sourceforge.io/">Vim</a> (Mac OS X, UNIX).</li>
 <li><a href="https://atom.io/">Atom</a> (Mac OS X, Windows, UNIX).</li>
+<li><a href="https://code.visualstudio.com/">VS Code</a> (Mac OS X, Windows, UNIX).</li>
 <li><a href="http://www.gnu.org/s/emacs/">Emacs</a> (Mac OS X, UNIX): a very powerful editor with customised modes for many programming languages.
 <ul>
 <li>There is a <a href="http://www.haskell.org/haskellwiki/Haskell_mode_for_Emacs">Haskell mode</a> for Emacs that supports syntax highlighting, inferior GHCi mode, etc.</li>
 <li>OS X users may want to try <a href="http://aquamacs.org/">Aquamacs</a>, an OS X port that looks more native.</li>
 </ul></li>
+<li><a href="http://notepad-plus-plus.org/">NotePad++</a> (Windows): an editor released under GPL license.</li>
+<li><a href="https://vim.sourceforge.io/">Vim</a> (Mac OS X, UNIX).</li>
 <li><a href="https://www.sublimetext.com/">Sublime Text</a> (Mac OS X, Windows, Linux).</li>
 <li><a href="http://eclipsefp.github.com/">Eclipse FP</a> (cross platform): an Eclipse plug-in for Haskell that supports graphical debugging of modules, autocompletion, integration with GHC, etc.</li>
 </ul>

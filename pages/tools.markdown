@@ -8,15 +8,22 @@ title: 工具
 
 ## 安裝
 
-最簡單的方式是安裝 [Haskell Platform](http://hackage.haskell.org/platform/). 這是一整組包含許多 Haskell 相關工具的套件，其中也包含 GHC.
+目前[官方推薦的方式](https://www.haskell.org/downloads/)是經由 [GHCup](https://www.haskell.org/ghcup/) 安裝 GHC, [cabal-install](https://cabal.readthedocs.io/) (Haskell 的套件安裝程式）, 以及 [haskell-language-server](https://github.com/haskell/haskell-language-server) (HLS, 配合編輯器以及 IDE 使用的支援工具)。
 
-請至 [Haskell Platform](http://hackage.haskell.org/platform/) 首頁上選擇自己使用的作業系統後下載，並按照指示安裝。
+請參照 [GHCup](https://www.haskell.org/ghcup/) 的指示安裝。下指令後，會進入一個選單可選擇要裝哪些項目的選單。除預設的 GHC 與 cabal 等等之外，建議可裝 HLS。除非預備要使用 Haskell 開發大軟體，stack 可暫時不用安裝。系統會抓適合的 GHC 來安裝。
 
-Ubuntu Linux 使用者請勿使用 apt-get --- 如此會安裝到很舊的版本。請使用 Generic Linux 的安裝法。
+安裝程式會幫忙改系統路徑。之後可能會需要開一個新的 shell/視窗。如在新開的 shell 之中下指令 `ghci`, 能看到 GHC 的提示符號，就是安裝成功了。
+
+Windows 使用者也可用 Chocolatey 安裝。請下指令：
+```
+choco install haskell-dev haskell-stack cabal
+refreshenv
+```
+
 
 ## GHCi 命令
 
-安裝完畢後，從命令列下指令 ghci 即可進入 Glasgow Haskell Compiler 的互動介面。Windows 使用者可執行 WinGHCi.
+安裝完畢後，從命令列下指令 ghci 即可進入 Glasgow Haskell Compiler 的互動介面。
 
 常用指令如下。各指令都可只打第一個字母。如 :load 可簡寫為 :l。課堂上用到的指令包括 :load (載入檔案）, :reload （重新載入檔案）, :type <expr> （顯示 expr 的型別）等等。
 
@@ -56,11 +63,12 @@ Ubuntu Linux 使用者請勿使用 apt-get --- 如此會安裝到很舊的版本
 
 Windows 使用者不建議使用 NotePad, 因為該程式不認得 UNIX 的換行符號。其他可能選項包括：
 
-  * [NotePad++](http://notepad-plus-plus.org/) (Windows): an editor released under GPL license.
-  * [Vim](https://vim.sourceforge.io/) (Mac OS X, UNIX).
   * [Atom](https://atom.io/) (Mac OS X, Windows, UNIX).
+  * [VS Code](https://code.visualstudio.com/) (Mac OS X, Windows, UNIX).
   * [Emacs](http://www.gnu.org/s/emacs/) (Mac OS X, UNIX): a very powerful editor with customised modes for many programming languages.
     * There is a [Haskell mode](http://www.haskell.org/haskellwiki/Haskell_mode_for_Emacs) for Emacs that supports syntax highlighting, inferior GHCi mode, etc.
     * OS X users may want to try [Aquamacs](http://aquamacs.org/), an OS X port that looks more native.
+  * [NotePad++](http://notepad-plus-plus.org/) (Windows): an editor released under GPL license.
+  * [Vim](https://vim.sourceforge.io/) (Mac OS X, UNIX).
   * [Sublime Text](https://www.sublimetext.com/) (Mac OS X, Windows, Linux).
   * [Eclipse FP](http://eclipsefp.github.com/) (cross platform): an Eclipse plug-in for Haskell that supports graphical debugging of modules, autocompletion, integration with GHC, etc.

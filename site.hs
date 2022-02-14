@@ -84,58 +84,6 @@ mkAtomXML = create ["atom.xml"] $ do
         posts <- fmap (take 10) . recentFirst =<< loadAllSnapshots "posts/*" "content"
         renderAtom feedConfig feedCtx posts
 
-{-
-mkPosts = match "posts/*" $ do
-      route $ setExtension "html"
-      compile $ pandocCompiler
-          >>= saveSnapshot "content"
-          >>= loadAndApplyTemplate "templates/post.html"    postCtx
-          >>= loadAndApplyTemplate "templates/default.html" (baseSidebarCtx <> siteCtx)
-          >>= relativizeUrls
-
-mkArchive = create ["archive.html"] $ do
-      route idRoute
-      compile $ do
-          posts <- recentFirst =<< loadAll "posts/*"
-          let archiveCtx =
-                  listField "posts" postCtx (return posts) `mappend`
-                  constField "title" "Archives"            `mappend`
-                  constField "archive" "" `mappend`
-                  siteCtx
-
-          makeItem ""
-              >>= loadAndApplyTemplate "templates/archive.html" archiveCtx
-              >>= loadAndApplyTemplate "templates/default.html" (baseSidebarCtx <> archiveCtx)
-              >>= relativizeUrls
-
-mkPaginate = do
-  paginate <- buildPaginateWith postsGrouper "posts/*" postsPageId
-  paginateRules paginate $ \page pattern -> do
-    route idRoute
-    compile $ do
-        posts <- recentFirst =<< loadAllSnapshots pattern "content"
-        let indexCtx =
-                constField "title" (if page == 1 then "Home"
-                                                 else "Blog posts, page " ++ show page) `mappend`
-                listField "posts" postCtx (return posts) `mappend`
-                constField "home" "" `mappend`
-                paginateContext paginate page `mappend`
-                siteCtx
-
-        makeItem ""
-            >>= applyAsTemplate indexCtx
-            >>= loadAndApplyTemplate "templates/index.html" indexCtx
-            >>= loadAndApplyTemplate "templates/default.html" (baseSidebarCtx <> indexCtx)
-            >>= relativizeUrls
---------------------------------------------------------------------------------
-
-postsGrouper :: (MonadFail m, MonadMetadata m) => [Identifier] -> m [[Identifier]]
-postsGrouper = liftM (paginateEvery 3) . sortRecentFirst
-
-postsPageId :: PageNumber -> Identifier
-postsPageId n = fromFilePath $ if (n == 1) then "index.html" else show n ++ "/index.html"
--}
---------------------------------------------------------------------------------
 
 feedConfig :: FeedConfiguration
 feedConfig = FeedConfiguration
@@ -143,7 +91,7 @@ feedConfig = FeedConfiguration
     , feedDescription = "IM, NTU"
     , feedAuthorName  = "Shin-Cheng Mu"
     , feedAuthorEmail = "scm@iis.sinica.edu.tw"
-    , feedRoot        = "https://github.com/hahey/lanyon-hakyll"
+    , feedRoot        = "https://scmu.github.io/plfp"
     }
 
 --------------------------------------------------------------------------------
