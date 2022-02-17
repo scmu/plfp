@@ -11,6 +11,7 @@ title: 大綱與講義
     Introduction to Haskell – Values, Functions, and Types.
     * [講義 1](../assets/handouts_01.pdf), [投影片 0](../assets/slides_01.pdf).
     * [練習 0](../assets/practicals_00.pdf), [投影片 0](../assets/practicals_00_sols.pdf).
+    * [MiniPrelude.hs](../assets/MiniPrelude.hs).
 * Week 02 (2022/02/24)
   * 2\. **Haskell 簡介：單純資料型別、串列上之函數**。
     Introduction to Haskell – Simple Datatypes & Functions on Lists.
