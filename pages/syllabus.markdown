@@ -9,17 +9,18 @@ title: 大綱與講義
     * [講義 0](../assets/handouts_00.pdf), [投影片 0](../assets/slides_00.pdf).
   * 1\. **Haskell 簡介：值、函數、與型別**。
     Introduction to Haskell – Values, Functions, and Types.
-    * [講義 1](../assets/handouts_01.pdf), [投影片 0](../assets/slides_01.pdf).
-    * [練習 0](../assets/practicals_00.pdf), [投影片 0](../assets/practicals_00_sols.pdf).
+    * [講義 1](../assets/handouts_01.pdf), [投影片 1](../assets/slides_01.pdf).
+    * [練習 0](../assets/practicals_00.pdf), [練習 0 參考解答](../assets/practicals_00_sols.pdf).
     * [MiniPrelude.hs](../assets/MiniPrelude.hs).
 * Week 02 (2022/02/24)
   * 2\. **Haskell 簡介：單純資料型別、串列上之函數**。
     Introduction to Haskell – Simple Datatypes & Functions on Lists.
+    * [講義 2](../assets/handouts_02.pdf), [投影片 2](../assets/slides_02.pdf), [工作單 2](../assets/work_sheet_02.pdf).
+    * [練習 1: 逆向工程程式設計](../assets/practicals_01.pdf), [practicals_01_code.zip](../assets/practicals_01_code.zip), [practicals_01_code_no_quickcheck.zip](../assets/practicals_01_code_no_quickcheck.zip).
+    * [練習 2: 「全麥程設」與 Caesar Cipher](../assets/practicals_02.pdf), [CaesarCipher.zip](../assets/CaesarCipher.zip).
 * Week 03 (2022/03/03)
   * 延續上週主題。
 * Week 04 (2022/03/10)
-  * 練習：逆向工程程式設計
-  * 練習：「全麥程設」與 Caesar Cipher.
 * Week 05 (2022/03/17)
   * 3\. **歸納定義與證明**。
     Definition and Proof by Induction.

@@ -3,6 +3,11 @@ title: 課程資訊
 home: y
 ---
 
+## What's New
+
+  * [2022/02/23] [講義2, 練習1 & 2](pages/syllabus.html)上線.
+  * [2022/02/16] [講義0 & 1, 練習0](pages/syllabus.html)上線.
+
 ## 時間、地點
 
   * 課號: IM 2012
@@ -51,4 +56,8 @@ home: y
 
 ## 工具
 
+詳見[工具](pages/tools.html).
+
 ## 參考書目
+
+詳見[參考書目](pages/refs.html).
