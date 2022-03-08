@@ -16,14 +16,16 @@ title: 大綱與講義
   * 2\. **Haskell 簡介：單純資料型別、串列上之函數**。
     Introduction to Haskell – Simple Datatypes & Functions on Lists.
     * [講義 2](../assets/handouts_02.pdf), [投影片 2](../assets/slides_02.pdf), [工作單 2](../assets/work_sheet_02.pdf).
-    * [練習 1: 逆向工程程式設計](../assets/practicals_01.pdf), [practicals_01_code.zip](../assets/practicals_01_code.zip), [practicals_01_code_no_quickcheck.zip](../assets/practicals_01_code_no_quickcheck.zip).
-    * [練習 2: 「全麥程設」與 Caesar Cipher](../assets/practicals_02.pdf), [CaesarCipher.zip](../assets/CaesarCipher.zip).
 * Week 03 (2022/03/03)
-  * 延續上週主題。
+  * [練習 1: 逆向工程程式設計](../assets/practicals_01.pdf), [practicals_01_code.zip](../assets/practicals_01_code.zip), [practicals_01_code_no_quickcheck.zip](../assets/practicals_01_code_no_quickcheck.zip).
+  * [練習 2: 「全麥程設」與 Caesar Cipher](../assets/practicals_02.pdf), [CaesarCipher.zip](../assets/CaesarCipher.zip).
 * Week 04 (2022/03/10)
-* Week 05 (2022/03/17)
   * 3\. **歸納定義與證明**。
     Definition and Proof by Induction.
+    * [講義 3](../assets/handouts_03.pdf), [投影片 3](../assets/slides_03.pdf), [工作單 3](../assets/work_sheet_03.pdf).
+    * [練習 3](../assets/practicals_03.pdf), [練習 3 參考解答](../assets/practicals_03_sols.pdf).
+* Week 05 (2022/03/17)
+  * 延續上週主題。
 * Week 06 (2022/03/24)
   * 延續上週主題。
 * Week 07 (2022/03/31)
