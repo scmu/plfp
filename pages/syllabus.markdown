@@ -27,12 +27,15 @@ title: 大綱與講義
 * Week 05 (2022/03/17)
   * 延續上週主題。
 * Week 06 (2022/03/24)
-  * 延續上週主題。
-* Week 07 (2022/03/31)
-  * 4\. **Haskell 簡介: Type Classes 小記**。
-    Introduction to Haskell – A Quick Note on Type Classes.
-  * 5\. **簡單程式推導**。
+  * 4\. **簡單程式推導**。
     Simple Program Derivation
+    * [講義 4](../assets/handouts_04.pdf), [投影片 4](../assets/slides_04.pdf).
+    * [練習 4](../assets/practicals_04.pdf), [練習 4 參考解答](../assets/practicals_04_sols.pdf).
+* Week 07 (2022/03/31)
+  * 5\. **程式推導：Work Less by Promising More**。
+    Program Calculation: Work Less by Promising More
+    * [講義 5](../assets/handouts_05.pdf), [投影片 5](../assets/slides_05.pdf).
+    * [練習 5](../assets/practicals_05.pdf), [練習 5 參考解答](../assets/practicals_05_sols.pdf).
 * Week 08 (2022/04/07)：*期中考*。
 * Week 09 (2022/04/14)
   * 6\. **無所不在的「摺」**。

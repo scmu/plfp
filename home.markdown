@@ -5,6 +5,7 @@ home: y
 
 ## What's New
 
+  * [2022/03/23] [講義 4 & 5, 練習 4 & 5](pages/syllabus.html)上線.
   * [2022/03/08] [講義3, 練習3](pages/syllabus.html)上線.
   * [2022/02/23] [講義2, 練習1 & 2](pages/syllabus.html)上線.
   * [2022/02/16] [講義0 & 1, 練習0](pages/syllabus.html)上線.
