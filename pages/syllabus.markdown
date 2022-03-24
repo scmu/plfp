@@ -32,22 +32,22 @@ title: 大綱與講義
     * [講義 4](../assets/handouts_04.pdf), [投影片 4](../assets/slides_04.pdf).
     * [練習 4](../assets/practicals_04.pdf), [練習 4 參考解答](../assets/practicals_04_sols.pdf).
 * Week 07 (2022/03/31)
+  * 延續上週主題。
+* Week 08 (2022/04/07)
   * 5\. **程式推導：Work Less by Promising More**。
     Program Calculation: Work Less by Promising More
     * [講義 5](../assets/handouts_05.pdf), [投影片 5](../assets/slides_05.pdf).
     * [練習 5](../assets/practicals_05.pdf), [練習 5 參考解答](../assets/practicals_05_sols.pdf).
-* Week 08 (2022/04/07)：*期中考*。
-* Week 09 (2022/04/14)
+* Week 09 (2022/04/14)：*期中考*。
+* Week 10 (2022/04/21)
   * 6\. **無所不在的「摺」**。
     The Ubiquitous Fold.
-* Week 10 (2022/04/21)
+* Week 11 (2022/04/28)
   * 7\. **型別與邏輯**。
     Types and Logic.
-* Week 11 (2022/04/28)
+* Week 12 (2022/05/05)
   * 8\. **一階邏輯與依值型別**。
     First Order Logic and Dependent Type.
-* Week 12 (2022/05/05)
-  * 延續上週主題。
 * Week 13 (2022/05/12)
   * 9\. **單子與副作用**。
     Monads and Effects.

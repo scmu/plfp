@@ -5,6 +5,7 @@ home: y
 
 ## What's New
 
+  * [2022/03/24] 行事曆更動：[期中考挪後一週，改至 2022/04/14](pages/syllabus.html).
   * [2022/03/23] [講義 4 & 5, 練習 4 & 5](pages/syllabus.html)上線.
   * [2022/03/08] [講義3, 練習3](pages/syllabus.html)上線.
   * [2022/02/23] [講義2, 練習1 & 2](pages/syllabus.html)上線.
