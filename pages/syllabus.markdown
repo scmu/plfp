@@ -42,6 +42,8 @@ title: 大綱與講義
 * Week 10 (2022/04/21)
   * 6\. **無所不在的「摺」**。
     The Ubiquitous Fold.
+    * [講義 6](../assets/handouts_06.pdf), [投影片 6](../assets/slides_06.pdf).
+    * [練習 6](../assets/practicals_06.pdf), [練習 6 參考解答](../assets/practicals_06_sols.pdf).
 * Week 11 (2022/04/28)
   * 7\. **型別與邏輯**。
     Types and Logic.
