@@ -47,6 +47,8 @@ title: 大綱與講義
 * Week 11 (2022/04/28)
   * 7\. **型別與邏輯**。
     Types and Logic.
+    * [講義 7](../assets/handouts_07.pdf), [投影片 7](../assets/slides_07.pdf).
+    * [練習 7](../assets/practicals_07.pdf), [練習 7 參考解答](../assets/practicals_07_sols.pdf).
 * Week 12 (2022/05/05)
   * 8\. **一階邏輯與依值型別**。
     First Order Logic and Dependent Type.
