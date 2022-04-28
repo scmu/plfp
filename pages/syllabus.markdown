@@ -45,18 +45,18 @@ title: 大綱與講義
     * [講義 6](../assets/handouts_06.pdf), [投影片 6](../assets/slides_06.pdf).
     * [練習 6](../assets/practicals_06.pdf), [練習 6 參考解答](../assets/practicals_06_sols.pdf).
 * Week 11 (2022/04/28)
+  * 延續上週主題。
+* Week 12 (2022/05/05)
   * 7\. **型別與邏輯**。
     Types and Logic.
     * [講義 7](../assets/handouts_07.pdf), [投影片 7](../assets/slides_07.pdf).
     * [練習 7](../assets/practicals_07.pdf), [練習 7 參考解答](../assets/practicals_07_sols.pdf).
-* Week 12 (2022/05/05)
+* Week 13 (2022/05/12)
   * 8\. **一階邏輯與依值型別**。
     First Order Logic and Dependent Type.
-* Week 13 (2022/05/12)
-  * 9\. **單子與副作用**。
-    Monads and Effects.
 * Week 14 (2022/05/19)
-  * 延續上週主題。
+  * 9\. **單子與副作用**。
+    Monads and Effects.  
 * Week 15 (2022/05/26)
   * 延續上週主題。
 * Week 16 (2022/06/02): *期末考*。
