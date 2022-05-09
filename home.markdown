@@ -5,6 +5,7 @@ home: y
 
 ## What's New
 
+  * [2022/05/09] 因應疫情，本週採遠距上課。請大家於上課時間連線至 https://ntumeet.webex.com/meet/scmu 
   * [2022/04/27] [講義7, 練習7](pages/syllabus.html)上線.
   * [2022/04/21] [講義6, 練習6](pages/syllabus.html)上線.
   * [2022/03/24] 行事曆更動：[期中考挪後一週，改至 2022/04/14](pages/syllabus.html).
