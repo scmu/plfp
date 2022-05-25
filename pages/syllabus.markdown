@@ -52,11 +52,11 @@ title: 大綱與講義
     * [講義 7](../assets/handouts_07.pdf), [投影片 7](../assets/slides_07.pdf).
     * [練習 7](../assets/practicals_07.pdf), [練習 7 參考解答](../assets/practicals_07_sols.pdf).
 * Week 13 (2022/05/12)
+  * 延續上週主題。
+* Week 14 (2022/05/19)
+  * 延續上週主題。
+* Week 15 (2022/05/26)
   * 8\. **一階邏輯與依值型別**。
     First Order Logic and Dependent Type.
-* Week 14 (2022/05/19)
-  * 9\. **單子與副作用**。
-    Monads and Effects.  
-* Week 15 (2022/05/26)
-  * 延續上週主題。
+    * [agda.zip](../assets/agda.zip).
 * Week 16 (2022/06/02): *期末考*。
