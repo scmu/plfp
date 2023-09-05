@@ -4,22 +4,15 @@ title: 工具
 
 # The Glasgow Haskell Compiler
 
-目前最被廣泛使用的 Haskell 實作是 [Glasgow Haskell Compiler (GHC)](http://www.haskell.org/ghc), 包含編譯器以及有互動介面的解譯器。
+本課程使用 [Haskell](https://www.haskell.org/) 語言為教學工具。目前最被廣泛使用的 Haskell 實作是 Glasgow Haskell Compiler (GHC), 包含編譯器以及有互動介面的解譯器。
 
 ## 安裝
 
 目前[官方推薦的方式](https://www.haskell.org/downloads/)是經由 [GHCup](https://www.haskell.org/ghcup/) 安裝 GHC, [cabal-install](https://cabal.readthedocs.io/) (Haskell 的套件安裝程式）, 以及 [haskell-language-server](https://github.com/haskell/haskell-language-server) (HLS, 配合編輯器以及 IDE 使用的支援工具)。
 
-請參照 [GHCup](https://www.haskell.org/ghcup/) 的指示安裝。下指令後，會進入一個選單可選擇要裝哪些項目的選單。除預設的 GHC 與 cabal 等等之外，建議可裝 HLS。除非預備要使用 Haskell 開發大軟體，stack 可暫時不用安裝。系統會抓適合的 GHC 來安裝。
+請參照 [GHCup](https://www.haskell.org/ghcup/) 的指示安裝。下指令後，會進入一個選單可選擇要裝哪些項目的選單。除預設的 GHC 與 cabal 等等之外，建議可裝 HLS。除非預備要使用 Haskell 開發大軟體，stack 可暫時不用。系統會抓適合的 GHC 來安裝。
 
 安裝程式會幫忙改系統路徑。之後可能會需要開一個新的 shell/視窗。如在新開的 shell 之中下指令 `ghci`, 能看到 GHC 的提示符號，就是安裝成功了。
-
-Windows 使用者也可用 Chocolatey 安裝。請下指令：
-```
-choco install haskell-dev haskell-stack cabal
-refreshenv
-```
-
 
 ## GHCi 命令
 

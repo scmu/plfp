@@ -5,22 +5,15 @@ home: y
 
 ## What's New
 
-  * [2022/05/25] [Agda 練習檔](pages/syllabus.html)上線.
-  * [2022/05/09] 因應疫情，本週採遠距上課。請大家於上課時間連線至 https://ntumeet.webex.com/meet/scmu
-  * [2022/04/27] [講義7, 練習7](pages/syllabus.html)上線.
-  * [2022/04/21] [講義6, 練習6](pages/syllabus.html)上線.
-  * [2022/03/24] 行事曆更動：[期中考挪後一週，改至 2022/04/14](pages/syllabus.html).
-  * [2022/03/23] [講義 4 & 5, 練習 4 & 5](pages/syllabus.html)上線.
-  * [2022/03/08] [講義3, 練習3](pages/syllabus.html)上線.
-  * [2022/02/23] [講義2, 練習1 & 2](pages/syllabus.html)上線.
-  * [2022/02/16] [講義0 & 1, 練習0](pages/syllabus.html)上線.
+  * [2023/09/05] [講義0 & 1, 練習1](pages/syllabus.html)上線。
+  * [2023/09/04] 2023 秋季學期（112 學年度上學期）開始。
 
 ## 時間、地點
 
-  * 課號: IM 2012
+  * 課號: IM 5064 (725 U3920)
   * 學分: 3
   * 時間: 星期四 2,3,4
-  * 地點: 管二館204
+  * 地點: 管一館101
 
 ## 目標
 
@@ -58,8 +51,8 @@ home: y
 
 ## 講師、助教
 
-  * 講師：穆信成：scm[AT]iis.sinica.edu.tw
-  * 助教：顏价廷
+  * 講師：穆信成 scm[AT]iis.sinica.edu.tw
+  * 助教：林小喬
 
 ## 工具
 

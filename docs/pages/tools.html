@@ -87,7 +87,7 @@
 
   <div class="sidebar-item">
     <p>
-      &copy; 2022. All rights reserved.
+      &copy; 2023. All rights reserved.
     </p>
     <p>
         <img src="https://scmu.github.io/plfp/images/haskell-logo.png" class="logo" style="display: inline;" />
@@ -110,7 +110,7 @@
         <div class="container">
           <h3 class="masthead-title">
             <a href="https://scmu.github.io/plfp" title="Home">程式語言：函數程式設計</a>
-            <small>National Taiwan University, 2022</small>
+            <small>National Taiwan University, 2023</small>
           </h3>
         </div>
       </div>
@@ -119,14 +119,11 @@
           <div class="page">
   <h1 class="page-title">工具</h1>
      <h1 id="the-glasgow-haskell-compiler">The Glasgow Haskell Compiler</h1>
-<p>目前最被廣泛使用的 Haskell 實作是 <a href="http://www.haskell.org/ghc">Glasgow Haskell Compiler (GHC)</a>, 包含編譯器以及有互動介面的解譯器。</p>
+<p>本課程使用 <a href="https://www.haskell.org/">Haskell</a> 語言為教學工具。目前最被廣泛使用的 Haskell 實作是 Glasgow Haskell Compiler (GHC), 包含編譯器以及有互動介面的解譯器。</p>
 <h2 id="安裝">安裝</h2>
 <p>目前<a href="https://www.haskell.org/downloads/">官方推薦的方式</a>是經由 <a href="https://www.haskell.org/ghcup/">GHCup</a> 安裝 GHC, <a href="https://cabal.readthedocs.io/">cabal-install</a> (Haskell 的套件安裝程式）, 以及 <a href="https://github.com/haskell/haskell-language-server">haskell-language-server</a> (HLS, 配合編輯器以及 IDE 使用的支援工具)。</p>
-<p>請參照 <a href="https://www.haskell.org/ghcup/">GHCup</a> 的指示安裝。下指令後，會進入一個選單可選擇要裝哪些項目的選單。除預設的 GHC 與 cabal 等等之外，建議可裝 HLS。除非預備要使用 Haskell 開發大軟體，stack 可暫時不用安裝。系統會抓適合的 GHC 來安裝。</p>
+<p>請參照 <a href="https://www.haskell.org/ghcup/">GHCup</a> 的指示安裝。下指令後，會進入一個選單可選擇要裝哪些項目的選單。除預設的 GHC 與 cabal 等等之外，建議可裝 HLS。除非預備要使用 Haskell 開發大軟體，stack 可暫時不用。系統會抓適合的 GHC 來安裝。</p>
 <p>安裝程式會幫忙改系統路徑。之後可能會需要開一個新的 shell/視窗。如在新開的 shell 之中下指令 <code>ghci</code>, 能看到 GHC 的提示符號，就是安裝成功了。</p>
-<p>Windows 使用者也可用 Chocolatey 安裝。請下指令：</p>
-<pre><code>choco install haskell-dev haskell-stack cabal
-refreshenv</code></pre>
 <h2 id="ghci-命令">GHCi 命令</h2>
 <p>安裝完畢後，從命令列下指令 ghci 即可進入 Glasgow Haskell Compiler 的互動介面。</p>
 <p>常用指令如下。各指令都可只打第一個字母。如 :load 可簡寫為 :l。課堂上用到的指令包括 :load (載入檔案）, :reload （重新載入檔案）, :type <expr> （顯示 expr 的型別）等等。</p>
