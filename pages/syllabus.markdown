@@ -18,19 +18,19 @@ title: 大綱與講義
   * 2\. **Haskell 簡介：單純資料型別、串列上之函數**。
     Introduction to Haskell – Simple Datatypes & Functions on Lists.
     * [講義 2](../assets/handouts_02.pdf), [投影片 2](../assets/slides_01.pdf), [工作單 2](../assets/work_sheet_02.pdf).
+* Week 04 (2023/09/28)
+  * 延續上週主題
     * 練習 2-1: 逆向工程程式設計 -- [練習 2-1](../assets/practicals_02-1.pdf), [practicals_02-1_code.zip](../assets/practicals_02-1_code.zip), [practicals_02-1_code_no_quickcheck.zip](../assets/practicals_02-1_code_no_quickcheck.zip).
     * 練習 2-2: 「全麥程設」與 Caesar Cipher -- [練習 2-2](../assets/practicals_02-2.pdf), [CaesarCipher.zip](../assets/CaesarCipher.zip).
-* Week 04 (2023/09/28)
+* Week 05 (2023/10/05)
   * 3\. **歸納定義與證明**。
     Definition and Proof by Induction.
     * 講義 3, 投影片 3, 工作單 3, 練習 3.
-* Week 05 (2023/10/05)
-  * 延續上週主題。
 * Week 06 (2023/10/12)
+  * 延續上週主題。
+* Week 07 (2023/10/19)
   * 4\. **簡單程式推導**。
     Simple Program Derivation
-* Week 07 (2023/10/19)
-  * 延續上週主題。
 * Week 08 (2023/10/26):*期中考*。
 * Week 09 (2023/11/02)：
   * 5\. **程式推導：Work Less by Promising More**。
