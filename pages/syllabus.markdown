@@ -25,7 +25,7 @@ title: 大綱與講義
 * Week 05 (2023/10/05)
   * 3\. **歸納定義與證明**。
     Definition and Proof by Induction.
-    * 講義 3, 投影片 3, 工作單 3, 練習 3.
+    * [講義 3](../assets/handouts_03.pdf), [投影片 3](../assets/slides_03.pdf), [工作單 3](../assets/work_sheet_03.pdf), [練習 3](../assets/practicals_03.pdf).
 * Week 06 (2023/10/12)
   * 延續上週主題。
 * Week 07 (2023/10/19)
