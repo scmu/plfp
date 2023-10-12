@@ -5,6 +5,7 @@ home: y
 
 ## What's New
 
+  * [2023/10/12] [練習 2-1, 練習 2-2 參考解答](pages/syllabus.html)上線。
   * [2023/10/03] [講義 3 & 練習 3](pages/syllabus.html)上線。
   * [2023/09/11] [講義 2, 練習 2-1, 練習 2-2](pages/syllabus.html)上線。
   * [2023/09/05] [講義 0 & 1, 練習1](pages/syllabus.html)上線。
