@@ -20,8 +20,8 @@ title: 大綱與講義
     * [講義 2](../assets/handouts_02.pdf), [投影片 2](../assets/slides_01.pdf), [工作單 2](../assets/work_sheet_02.pdf).
 * Week 04 (2023/09/28)
   * 延續上週主題
-    * 練習 2-1: 逆向工程程式設計 -- [練習 2-1](../assets/practicals_02-1.pdf), [practicals_02-1_code.zip](../assets/practicals_02-1_code.zip), [practicals_02-1_code_no_quickcheck.zip](../assets/practicals_02-1_code_no_quickcheck.zip).
-    * 練習 2-2: 「全麥程設」與 Caesar Cipher -- [練習 2-2](../assets/practicals_02-2.pdf), [CaesarCipher.zip](../assets/CaesarCipher.zip).
+    * 練習 2-1: 逆向工程程式設計 -- [練習 2-1](../assets/practicals_02-1.pdf), [practicals_02-1_code.zip](../assets/practicals_02-1_code.zip), [practicals_02-1_code_no_quickcheck.zip](../assets/practicals_02-1_code_no_quickcheck.zip), [練習 2-1 參考解答](../assets/practicals_02-1_sols.zip)
+    * 練習 2-2: 「全麥程設」與 Caesar Cipher -- [練習 2-2](../assets/practicals_02-2.pdf), [CaesarCipher.zip](../assets/CaesarCipher.zip), 練習 2-2 參考解答：[CaesarCipher_Complete.zip](../assets/CaesarCipher_Complete.zip).
 * Week 05 (2023/10/05)
   * 3\. **歸納定義與證明**。
     Definition and Proof by Induction.
