@@ -29,11 +29,12 @@ title: 大綱與講義
 * Week 06 (2023/10/12)
   * 延續上週主題。
 * Week 07 (2023/10/19)
-  * 4\. **簡單程式推導**。
-    Simple Program Derivation
-  * [講義 4](../assets/handouts_04.pdf), [投影片 4](../assets/slides_04.pdf), [練習 4](../assets/practicals_03.pdf).
+  * 延續上週主題。
 * Week 08 (2023/10/26):*期中考*。
 * Week 09 (2023/11/02)：
+  * 4\. **簡單程式推導**。
+  Simple Program Derivation
+    * [講義 4](../assets/handouts_04.pdf), [投影片 4](../assets/slides_04.pdf), [練習 4](../assets/practicals_03.pdf).
   * 5\. **程式推導：Work Less by Promising More**。
     Program Calculation: Work Less by Promising More
 * Week 10 (2023/11/09)
