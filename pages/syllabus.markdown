@@ -25,12 +25,13 @@ title: 大綱與講義
 * Week 05 (2023/10/05)
   * 3\. **歸納定義與證明**。
     Definition and Proof by Induction.
-    * [講義 3](../assets/handouts_03.pdf), [投影片 3](../assets/slides_03.pdf), [工作單 3](../assets/work_sheet_03.pdf), [練習 3](../assets/practicals_03.pdf).
+    * [講義 3](../assets/handouts_03.pdf), [投影片 3](../assets/slides_03.pdf), [工作單 3](../assets/work_sheet_03.pdf), [練習 3](../assets/practicals_03.pdf), [練習 3 參考解答](../assets/practicals_03_sols.pdf).
 * Week 06 (2023/10/12)
   * 延續上週主題。
 * Week 07 (2023/10/19)
   * 4\. **簡單程式推導**。
     Simple Program Derivation
+  * [講義 4](../assets/handouts_04.pdf), [投影片 4](../assets/slides_04.pdf), [練習 4](../assets/practicals_03.pdf).
 * Week 08 (2023/10/26):*期中考*。
 * Week 09 (2023/11/02)：
   * 5\. **程式推導：Work Less by Promising More**。
