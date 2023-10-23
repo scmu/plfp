@@ -5,6 +5,7 @@ home: y
 
 ## What's New
 
+  * [2023/10/23] 參考課本《[函數程設與推論](/assets/fpbook.pdf)》更新.
   * [2023/10/19] [練習 3 參考解答、講義 4 & 練習 4](pages/syllabus.html)上線。
   * [2023/10/12] [練習 2-1, 練習 2-2 參考解答](pages/syllabus.html)上線。
   * [2023/10/03] [講義 3 & 練習 3](pages/syllabus.html)上線。
