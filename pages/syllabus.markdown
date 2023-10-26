@@ -31,6 +31,7 @@ title: 大綱與講義
 * Week 07 (2023/10/19)
   * 延續上週主題。
 * Week 08 (2023/10/26):*期中考*。
+  * [參考解答](../assets/midterm_sols.pdf).
 * Week 09 (2023/11/02)：
   * 4\. **簡單程式推導**。
   Simple Program Derivation
