@@ -35,14 +35,14 @@ title: 大綱與講義
 * Week 09 (2023/11/02)：
   * 4\. **簡單程式推導**。
   Simple Program Derivation
-    * [講義 4](../assets/handouts_04.pdf), [投影片 4](../assets/slides_04.pdf), [練習 4](../assets/practicals_04.pdf).
+    * [講義 4](../assets/handouts_04.pdf), [投影片 4](../assets/slides_04.pdf), [練習 4](../assets/practicals_04.pdf), [練習 4 參考解答](../assets/practicals_04_sols.pdf).
+* Week 10 (2023/11/09)
   * 5\. **程式推導：Work Less by Promising More**。
     Program Calculation: Work Less by Promising More
-* Week 10 (2023/11/09)
+    * [講義 5](../assets/handouts_05.pdf), [投影片 5](../assets/slides_05.pdf), [練習 5](../assets/practicals_05.pdf), [練習 5 參考解答](../assets/practicals_05_sols.pdf).
+* Week 11 (2023/11/16)
   * 6\. **無所不在的「摺」**。
     The Ubiquitous Fold.
-* Week 11 (2023/11/16)
-  * 延續上週主題。
 * Week 12 (2023/11/23)
   * 7\. **型別與邏輯**。
     Types and Logic.
