@@ -41,11 +41,14 @@ title: 大綱與講義
     Program Calculation: Work Less by Promising More
     * [講義 5](../assets/handouts_05.pdf), [投影片 5](../assets/slides_05.pdf), [練習 5](../assets/practicals_05.pdf), [練習 5 參考解答](../assets/practicals_05_sols.pdf).
 * Week 11 (2023/11/16)
-  * 6\. **無所不在的「摺」**。
-    The Ubiquitous Fold.
+  * 延續上週主題。
 * Week 12 (2023/11/23)
+  * 6\. **無所不在的「摺」** (參考資料)。
+    The Ubiquitous Fold (Supplementary).
+    * [講義 6](../assets/handouts_06.pdf), [練習 6](../assets/practicals_06.pdf), [練習 6 參考解答](../assets/practicals_06_sols.pdf).
   * 7\. **型別與邏輯**。
     Types and Logic.
+    * [講義 7](../assets/handouts_07.pdf), [投影片 7](../assets/slides_07.pdf), [練習 7](../assets/practicals_07.pdf), [練習 7 參考解答](../assets/practicals_07_sols.pdf).
 * Week 13 (2023/11/30)
   * 延續上週主題。
 * Week 14 (2023/12/07)
