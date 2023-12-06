@@ -88,10 +88,9 @@ Mac OS 與 Linux 使用者建議用 [homebrew](https://brew.sh/) 安裝。
 
 ## Windows 安裝
 
-建議的方法是安裝 [WSL (Windows Subsystem for Linux)](https://learn.microsoft.com/zh-tw/windows/wsl/about)。這相當於在 Windows 中執行一個 Linux. 然後把 Agda 裝在裡面。
+建議的方法是安裝 [WSL (Windows Subsystem for Linux)](https://learn.microsoft.com/zh-tw/windows/wsl/about)。這相當於在 Windows 中執行一個 Linux, 並把 Agda 裝在裡面。
 
-請參考以下指南 --- 由助教林小喬撰寫：
-https://hackmd.io/@chiaoooo/ByJJoJ5HT
+請參考助教林小喬撰寫之[Windows 環境 Agda 安裝教學](https://hackmd.io/@chiaoooo/ByJJoJ5HT)。
 
 ## 常用指令
 
@@ -104,7 +103,7 @@ https://hackmd.io/@chiaoooo/ByJJoJ5HT
 * load:	`C-c C-l` （注意 `l` 為小寫 `L`）
 * quit and restart: `C-x C-r`
 
-游標在「洞」中時可下的指令：
+游標在`{   }`中時可下的指令：
 
 * refine:	`C-c C-r`
 * case split: `C-c C-c`
