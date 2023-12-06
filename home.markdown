@@ -5,6 +5,7 @@ home: y
 
 ## What's New
 
+  * [2023/12/06] [Agda 練習程式 (agda.zip)](pages/syllabus.html)上線。
   * [2023/11/22] [講義 6 & 練習 6, 講義 7 & 練習 7](pages/syllabus.html)上線。
   * [2023/11/15] [講義 5 & 練習 5](pages/syllabus.html)上線。
   * [2023/10/26] [期中考參考解答](pages/syllabus.html)上線。
