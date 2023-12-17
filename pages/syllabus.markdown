@@ -55,6 +55,7 @@ title: 大綱與講義
   * 8\. **一階邏輯與依值型別**。
   First Order Logic and Dependent Type.
     * [agda.zip](../assets/agda.zip).
+    * [agda_completed.zip](../assets/agda_completed.zip).
 * Week 15 (2023/12/14)
   * 延續上週主題。
 * Week 16 (2023/12/21): *期末考*。

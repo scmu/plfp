@@ -5,6 +5,7 @@ home: y
 
 ## What's New
 
+  * [2023/12/17] [agda_completed.zip](pages/tools.html)上線。
   * [2023/12/06] [Agda 安裝指南與指令](pages/tools.html)上線。
   * [2023/12/06] [Agda 練習程式 (agda.zip)](pages/syllabus.html)上線。
   * [2023/11/22] [講義 6 & 練習 6, 講義 7 & 練習 7](pages/syllabus.html)上線。
